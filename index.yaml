@@ -1,0 +1,8 @@
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: dx-sofy-repo
+spec:
+  name: dx-sofy-repo
+  connectionConfig:
+    url: https://github.com/agorosti/helm-charts
